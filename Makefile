@@ -3,7 +3,7 @@ CC=gcc
 .PHONY: all clean
 .DEFAULT_GOAL: all
 
-BINS=signal
+BINS=signal exec
 
 all: $(BINS)
 
